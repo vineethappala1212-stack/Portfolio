@@ -9,15 +9,20 @@
 ---
 
 ## 🔥 About Me
-I am a **Senior Data Analyst with 8+ years of experience** delivering data-driven business insights across **Retail and Healthcare** industries. I specialize in **dashboard development, business analytics, data modeling, and data storytelling** using **Power BI, Tableau, SQL, and Python**. I have a proven track record of improving decision-making, optimizing business operations, and automating analytics workflows.
+I am a **Senior Data Analyst with 8+ years of experience** delivering analytics solutions that drive revenue growth, operational efficiency, and business strategy across **Retail and Healthcare** organizations.
 
-✔ Built analytics solutions for **Pizza Hut, 7-Eleven, CVS Health, and Apollo Hospitals**  
-✔ Developed **executive dashboards** for sales, inventory, and revenue insights  
-✔ Designed **data models and KPIs** for business performance monitoring  
-✔ Automated reports and **reduced reporting time by up to 70%**  
-✔ Improved **business outcomes** such as stock optimization, repeat purchases, and patient risk insights  
+I specialize in **data storytelling, KPI development, dashboard design, and analytics automation** using **Power BI, Tableau, SQL, and Python**. I work end-to-end across the data lifecycle—from understanding business problems, designing data models, writing SQL for complex analysis, building executive dashboards, and enabling decision-making for leadership teams.
 
----
+I have successfully partnered with **C-level executives, business directors, and cross-functional teams** in Marketing, Supply Chain, Finance, and Operations to translate business goals into analytics solutions. I led analytics delivery for brands like **Pizza Hut, 7-Eleven, CVS Health, and Apollo Hospitals**, creating enterprise data products that improved performance insights **across 7,000+ locations and 20+ clinical teams**.
+
+✅ **Business Impact Highlights**  
+- Increased **inventory efficiency by 25%** and improved demand planning accuracy using forecasting models  
+- Reduced **reporting time by 70%** through dashboard automation and ETL optimization  
+- Improved **repeat customer rate by 12%** through cohort and customer segmentation analysis  
+- Enhanced **clinical risk insights by 31%** using predictive analytics and claims data modeling  
+- Delivered **real-time performance dashboards** to executive leadership across retail and healthcare
+
+  ---
 
 ## 🛠 Technical Skills
 
