@@ -1,5 +1,5 @@
 # Vineeth Appala  
-##Senior Business Intelligence & Data Analytics Professional | Power BI | Tableau | SQL | Python | Data Storytelling | Retail (POS, SAP BW, NielsenIQ) | Healthcare (Epic Clarity, HL7 FHIR, HEDIS) |Cloud Data Warehousing##
+Senior Business Intelligence & Data Analytics Professional | Power BI | Tableau | SQL | Python | Data Storytelling | Retail (POS, SAP BW, NielsenIQ) | Healthcare (Epic Clarity, HL7 FHIR, HEDIS) |Cloud Data Warehousing
 
 ---
 
