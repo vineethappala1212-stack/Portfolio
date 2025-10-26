@@ -15,12 +15,12 @@ I specialize in **data storytelling, KPI development, dashboard design, and anal
 
 I have successfully partnered with **C-level executives, business directors, and cross-functional teams** in Marketing, Supply Chain, Finance, and Operations to translate business goals into analytics solutions. I led analytics delivery for brands like **Pizza Hut, 7-Eleven, CVS Health, and Apollo Hospitals**, creating enterprise data products that improved performance insights **across 7,000+ locations and 20+ clinical teams**.
 
-✅ **Business Impact Highlights**  
-- Increased **inventory efficiency by 25%** and improved demand planning accuracy using forecasting models  
-- Reduced **reporting time by 70%** through dashboard automation and ETL optimization  
-- Improved **repeat customer rate by 12%** through cohort and customer segmentation analysis  
-- Enhanced **clinical risk insights by 31%** using predictive analytics and claims data modeling  
-- Delivered **real-time performance dashboards** to executive leadership across retail and healthcare
+## 📈 Business Impact Highlights
+✔ Reduced reporting time by **70%** using Power BI automation  
+✔ Improved inventory planning accuracy by **25%** using forecasting models  
+✔ Increased repeat customer purchases by **12%** through segmentation analytics  
+✔ Enabled real-time KPI visibility across **7,000+ locations**  
+✔ Delivered analytics for **20+ clinical teams**, improving patient risk insights 
 
   ---
 
