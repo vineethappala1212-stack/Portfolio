@@ -1,5 +1,3 @@
-# Portfolio
-Professional Data Analytics Portfolio
 # Vineeth Appala – Data Analytics Portfolio
 
 Welcome to my professional portfolio! I am a **Senior Data Analyst with 8+ years of experience** in **Retail and Healthcare Analytics**, specializing in **Tableau, Power BI, SQL, Python, and Data Engineering (SSIS, ADF, Snowflake)**.
