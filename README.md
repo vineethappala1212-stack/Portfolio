@@ -1,31 +1,57 @@
 # Vineeth Appala  
-Senior Business Intelligence & Data Analytics Professional | Power BI | Tableau | SQL | Python | Data Storytelling | Retail (POS, SAP BW, NielsenIQ) | Healthcare (Epic Clarity, HL7 FHIR, HEDIS) |Cloud Data Warehousing
-
----
-
-### 🔧 Technical Skills
-**BI Tools:** Tableau, Power BI, SSRS  
-**Databases:** SQL Server, Snowflake, Oracle  
-**ETL Tools:** SSIS, Azure Data Factory  
-**Programming:** SQL, Python (Pandas, Prophet), SAS  
-**Cloud:** Azure, AWS Redshift  
-
----
-
-### 📊 Projects
-| Project Name | Tools | Description | Links |
-|---------------|--------|-------------|--------|
-| **Pizza Hut Analytics Dashboard** | Tableau + SQL | Sales, order behavior | 🔗 Coming soon |
-| **7-Eleven Sales Optimization** | Power BI + SQL + ETL | Inventory & demand analysis | 🔗 Coming soon |
-| **CVS Patient Risk Analytics** | Power BI + Python | Healthcare claims analysis | 🔗 Coming soon |
-| **Apollo Inventory Forecasting** | Python + Power BI | ARIMA/Prophet Forecast model | 🔗 Coming soon |
-
----
-
-### 📬 Contact
+### Senior Data Analyst | Retail & Healthcare Analytics | Power BI • Tableau • SQL • Python
+ 
 📧 Email: vineethappala1212@gmail.com  
-🔗 LinkedIn: *Add your LinkedIn link here*  
-🌍 Portfolio Website (Coming soon)
+🔗 LinkedIn: https://www.linkedin.com/in/your-link  
+🔗 Tableau Public: https://public.tableau.com/profile/your-link  
+🔗 GitHub: https://github.com/your-link  
 
 ---
-⭐ More projects and dashboards uploading soon!
+
+## 🔥 About Me
+I am a **Senior Data Analyst with 8+ years of experience** delivering data-driven business insights across **Retail and Healthcare** industries. I specialize in **dashboard development, business analytics, data modeling, and data storytelling** using **Power BI, Tableau, SQL, and Python**. I have a proven track record of improving decision-making, optimizing business operations, and automating analytics workflows.
+
+✔ Built analytics solutions for **Pizza Hut, 7-Eleven, CVS Health, and Apollo Hospitals**  
+✔ Developed **executive dashboards** for sales, inventory, and revenue insights  
+✔ Designed **data models and KPIs** for business performance monitoring  
+✔ Automated reports and **reduced reporting time by up to 70%**  
+✔ Improved **business outcomes** such as stock optimization, repeat purchases, and patient risk insights  
+
+---
+
+## 🛠 Technical Skills
+
+| Category | Tools |
+|----------|-------|
+| **Visualization** | Power BI, Tableau |
+| **Programming** | SQL, Python (Pandas, NumPy, Prophet) |
+| **Databases** | SQL Server, Snowflake, Oracle |
+| **ETL & Data Prep** | Power Query, SSIS, Azure Data Factory |
+| **Data Modeling** | Star Schema, Snowflake Schema, Fact & Dimension Design |
+| **Analytics** | Time Series Forecasting, KPI Design, DAX, Data Storytelling |
+| **Version Control** | Git, GitHub |
+
+---
+
+## 📊 Featured Projects
+
+| Project | Domain | Tools | Links |
+|----------|--------|--------|-------|
+| **Pizza Hut – Sales Performance Insights** | Retail | Tableau + SQL | 🔗 Coming Soon |
+| **7-Eleven – Inventory & Promotion Analytics** | Retail | Power BI + SQL | 🔗 Coming Soon |
+| **CVS Health – Patient Risk & Claims Dashboard** | Healthcare | Power BI + Python | 🔗 Coming Soon |
+| **Apollo Hospitals – Inventory Forecasting** | Healthcare | Power BI + Python (Prophet) | 🔗 Coming Soon |
+
+> Each project includes: Problem statement • Data model • Dashboard • Insights • Python/SQL code
+
+---
+
+## 📞 Contact
+I am currently open to **Senior Data Analyst / Data Analyst** opportunities.
+
+📩 **Email:** vineethappala1212@gmail.com  
+📍 **Location:** Dallas, Texas  
+🔗 **LinkedIn:** https://www.linkedin.com/in/your-link  
+
+---
+⭐ More dashboards + SQL scripts + analytics case studies coming soon!
