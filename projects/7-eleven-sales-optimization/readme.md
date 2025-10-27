@@ -187,33 +187,47 @@ These metrics fed Tableau tiles and store/category drill-downs for weekly review
 
 ### 🐍 Python (Prophet) — Weekly Demand Forecast (Category × Store)
 
-Goal: Forecast next 8–12 weeks of demand to guide replenishment and safety stock.
+**Goal:** Forecast next 8–12 weeks of demand to guide replenishment and safety stock.
 
-#requirements: prophet, pandas
+```python
+# requirements: prophet, pandas
 import pandas as pd
 from prophet import Prophet
 
- #sales_df: columns = ['AsOfDate','StoreID','Category','UnitsSold'] (daily)
-hist = (sales_df
-        .groupby(['StoreID','Category','AsOfDate'], as_index=False)['UnitsSold'].sum())
+# sales_df: columns = ['AsOfDate','StoreID','Category','UnitsSold'] (daily)
+hist = (
+    sales_df
+    .groupby(['StoreID', 'Category', 'AsOfDate'], as_index=False)['UnitsSold']
+    .sum()
+)
 
 def forecast_store_category(df, periods=12):
-    df = df.rename(columns={'AsOfDate':'ds', 'UnitsSold':'y'}).sort_values('ds')
-    m = Prophet(weekly_seasonality=True, yearly_seasonality=True, changepoint_prior_scale=0.5)
-    m.fit(df[['ds','y']])
-    future = m.make_future_dataframe(periods=periods, freq='W')
-    fcst = m.predict(future)[['ds','yhat','yhat_lower','yhat_upper']]
+    df = df.rename(columns={'AsOfDate': 'ds', 'UnitsSold': 'y'}).sort_values('ds')
+    model = Prophet(weekly_seasonality=True, yearly_seasonality=True, changepoint_prior_scale=0.5)
+    model.fit(df[['ds', 'y']])
+    future = model.make_future_dataframe(periods=periods, freq='W')
+    fcst = model.predict(future)[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
     return fcst.tail(periods)
 
-# example: one store-category; in production loop across pairs and write to Snowflake
-one = hist[(hist['StoreID']==101) & (hist['Category']=='Beverages')][['AsOfDate','UnitsSold']]
-fcst = forecast_store_category(one, periods=12)
-# write fcst to forecast table for Tableau consumption (pseudocode)
-# write_to_snowflake(fcst.assign(StoreID=101, Category='Beverages'))
+# Example: one store-category
+sample = hist[(hist['StoreID'] == 101) & (hist['Category'] == 'Beverages')]
+forecast_output = forecast_store_category(sample, periods=12)
+
+# (Pseudo) Write forecast results to Snowflake table for Tableau use
+# write_to_snowflake(forecast_output.assign(StoreID=101, Category='Beverages'))
+
 
 
 ### How I used this:
-I published Prophet forecasts to a Snowflake Forecast table and joined them in Tableau with on-hand and DOH to flag at-risk items (high forecast, low on-hand) and over-stocked items (low forecast, high on-hand).
+I published Prophet forecasts to a Snowflake Forecast table and blended them with DOH and stock levels in Tableau to:
+
+✅ Identify at-risk items (high forecast ✔ low stock)
+
+✅ Highlight overstocked SKUs (low forecast ✔ high stock)
+
+✅ Improve replenishment decisions before stockouts happen
+
+---
 
 ### 🧠 Challenges & How I Solved Them
 
