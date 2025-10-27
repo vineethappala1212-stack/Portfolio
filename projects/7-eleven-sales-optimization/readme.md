@@ -215,6 +215,7 @@ forecast_output = forecast_store_category(sample, periods=12)
 
 # (Pseudo) Write forecast results to Snowflake table for Tableau use
 # write_to_snowflake(forecast_output.assign(StoreID=101, Category='Beverages'))
+```
 
 
 
