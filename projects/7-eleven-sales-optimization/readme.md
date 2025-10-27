@@ -189,11 +189,11 @@ These metrics fed Tableau tiles and store/category drill-downs for weekly review
 
 Goal: Forecast next 8–12 weeks of demand to guide replenishment and safety stock.
 
-# requirements: prophet, pandas
+#requirements: prophet, pandas
 import pandas as pd
 from prophet import Prophet
 
-# sales_df: columns = ['AsOfDate','StoreID','Category','UnitsSold'] (daily)
+ #sales_df: columns = ['AsOfDate','StoreID','Category','UnitsSold'] (daily)
 hist = (sales_df
         .groupby(['StoreID','Category','AsOfDate'], as_index=False)['UnitsSold'].sum())
 
