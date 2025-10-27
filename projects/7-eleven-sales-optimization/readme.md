@@ -232,22 +232,24 @@ I published Prophet forecasts to a Snowflake Forecast table and blended them wit
 
 ### 🧠 Challenges & How I Solved Them
 
-Noisy weekly seasonality & promo spikes: Smoothed with rolling windows; added promo features for context in analysis.
+✅Noisy weekly seasonality & promo spikes: Smoothed with rolling windows; tuned Prophet seasonalities.
 
-Mixed data quality across stores: Standardized item codes and enforced DQ checks in SSIS; added missing-data imputation.
+✅Mixed data quality across stores: Standardized item codes; enforced DQ checks in SSIS; imputed gaps.
 
-Stakeholder adoption: Ran working sessions with category managers; added store-friendly thresholds and red/green indicators in Tableau.
+✅Adoption with field teams: Added red/amber/green thresholds and store filters; ran enablement sessions.
 
 ---
 
 
 ### 🔗 Artifacts & Links
-Item	Link/Path
-Tableau Dashboard	Coming soon (public link)
-SQL Scripts	/sql/inventory_doh_promo_margin.sql
-Python Forecast	/python/prophet_demand_forecast.py
-ETL Notes (SSIS)	/etl/notes.md
-Data Model Diagram	/docs/inventory-star-schema.png
+| Item                   | Link/Path                             |
+| ---------------------- | ------------------------------------- |
+| Tableau Dashboard      | Coming soon (public link)             |
+| SQL Script             | `/sql/inventory_doh_promo_margin.sql` |
+| Python Forecast Script | `/python/prophet_demand_forecast.py`  |
+| ETL Notes (SSIS)       | `/etl/notes.md`                       |
+| Data Model Diagram     | `/docs/inventory-star-schema.png`     |
+
 
 ---
 
