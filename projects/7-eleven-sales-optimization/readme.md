@@ -8,7 +8,7 @@ I led an inventory optimization initiative for a U.S. retail client from the 7-E
 ---
 
 ### 👤 Role & Scope
-- **Role:** Senior Data Analyst (offshore delivery to U.S. business teams)
+- **Role:** Senior Data Analyst 
 - **Location:** Hyderabad, India (Remote collaboration with U.S. stakeholders)
 - **Core contributions:** KPI design, SQL data modeling, ETL coordination (SSIS), Tableau dashboards, Python forecasting (Prophet), decision enablement for category managers.
 
@@ -177,7 +177,7 @@ ORDER BY StoreID, Category, AsOfDate;
 ```
 ---
 
-How I used this:
+### How I used this:
 
 DOH flagged items with low coverage; StockoutFlag highlighted zero on-hand days.
 
@@ -185,7 +185,7 @@ PromoMargin7D identified promotions with sales uplift but poor margin, guiding d
 
 These metrics fed Tableau tiles and store/category drill-downs for weekly reviews.
 
-🐍 Python (Prophet) — Weekly Demand Forecast (Category × Store)
+### 🐍 Python (Prophet) — Weekly Demand Forecast (Category × Store)
 
 Goal: Forecast next 8–12 weeks of demand to guide replenishment and safety stock.
 
@@ -212,10 +212,10 @@ fcst = forecast_store_category(one, periods=12)
 # write_to_snowflake(fcst.assign(StoreID=101, Category='Beverages'))
 
 
-How I used this:
+### How I used this:
 I published Prophet forecasts to a Snowflake Forecast table and joined them in Tableau with on-hand and DOH to flag at-risk items (high forecast, low on-hand) and over-stocked items (low forecast, high on-hand).
 
-🧠 Challenges & How I Solved Them
+### 🧠 Challenges & How I Solved Them
 
 Noisy weekly seasonality & promo spikes: Smoothed with rolling windows; added promo features for context in analysis.
 
@@ -223,14 +223,20 @@ Mixed data quality across stores: Standardized item codes and enforced DQ checks
 
 Stakeholder adoption: Ran working sessions with category managers; added store-friendly thresholds and red/green indicators in Tableau.
 
-🔗 Artifacts & Links
+---
+
+
+### 🔗 Artifacts & Links
 Item	Link/Path
 Tableau Dashboard	Coming soon (public link)
 SQL Scripts	/sql/inventory_doh_promo_margin.sql
 Python Forecast	/python/prophet_demand_forecast.py
 ETL Notes (SSIS)	/etl/notes.md
 Data Model Diagram	/docs/inventory-star-schema.png
-✅ What I’d Improve Next
+
+---
+
+### ✅ What I’d Improve Next
 
 Add store clustering to tune forecasts by similar demand patterns
 
