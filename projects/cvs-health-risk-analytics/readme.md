@@ -158,7 +158,7 @@ ORDER BY m.month_start, m.provider_id, mr.denial_bucket;
 
 ---
 
-**How I used this**: Powered Tableau tiles (Denial Rate %, First-Pass %, Billed vs Paid) and a reason waterfall with provider drill-downs and month selector.
+**How I used this:** Powered Tableau tiles (Denial Rate %, First-Pass %, Billed vs Paid) and a reason waterfall with provider drill-downs and month selector.
 
 ---
 
@@ -193,7 +193,7 @@ watchlist = agg.loc[agg['watchlist_flag'], ['month','ndc','therapeutic_class','c
 
 ---
 
-How I used this: Published the watchlist to Snowflake and visualized:
+**How I used this:** Published the watchlist to Snowflake and visualized:
 
 ✅ top non-formulary outliers by therapeutic class
 
