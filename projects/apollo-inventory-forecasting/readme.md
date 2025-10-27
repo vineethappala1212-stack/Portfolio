@@ -130,6 +130,12 @@ ORDER BY s.day_date, s.ward_id;
 
 **How I used this:** Drove Capacity tiles (BOR, ALOS) and a ward heatmap with alerts when BOR > 85% or ALOS
 
+- Identified overcrowded wards (BOR > 85%) and redirected admissions to balance load
+
+- Flagged prolonged-stay patients increasing ALOS and escalated to clinical review teams
+
+- Enabled daily discharge planning huddles by highlighting wards with rising ALOS trends
+
 ---
 
 ### 🧪 Advanced SQL — ALOS & BOR (Ward × Day)
@@ -183,6 +189,12 @@ ORDER BY s.day_date, s.ward_id;
 
 **How I used this:** Powered OPD panel with Median Wait, Visits, and a “busiest hours” line chart for staffing.
 
+- Detected peak-hour congestion and recommended dynamic doctor slot allocation
+
+- Reduced bottlenecks by adding triage nurse allocation during peak hours
+
+- Shared department-wise wait time leaderboard with operations to improve SLA compliance
+
 ---
 
 ### 🧪 Advanced SQL — Pharmacy DOH & Stockout Flag
@@ -222,6 +234,12 @@ ORDER BY o.day_date, o.item_id;
 
 **How I used this:** Built Pharmacy watchlist tiles (DOH threshold < 5 days, stockout flag) + item drilldowns.
 
+- Automated low-stock alerts for items with DOH < 5 days to prevent stockouts
+
+- Helped procurement teams optimize reorder quantities based on usage velocity
+
+- Reduced emergency purchase costs by shifting to forecast-based inventory planning
+
 ---
 
 ### 🐍 Python (Prophet) — OPD Volume Forecast (Dept)
@@ -252,6 +270,12 @@ cardio_fcst = dept_forecast(cardio, periods=12)
 ---
 
 **How I used this:** Published forecasts and blended with current capacity → weekly over/under capacity indicator + staffing suggestions.
+
+- Predicted weekly patient volumes to align doctor scheduling and shift planning
+
+- Improved resource readiness by forecasting high-load periods for diagnostic labs
+
+- Helped operations adjust OPD room allocation based on department-level traffic trends
 
 ---
 
