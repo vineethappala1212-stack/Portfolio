@@ -165,6 +165,7 @@ How I used this: Powered Tableau tiles (Denial Rate %, First-Pass %, Billed vs P
 ### 🐍 Python (Pandas) — High-Cost NDC Watchlist & Outlier Flag
 
 **Goal:** Surface outlier NDCs (drug codes) by cost & utilization; flag alternatives for PBM review.
+```python
 # requirements: pandas
 import pandas as pd
 
@@ -188,6 +189,7 @@ agg['z_cost']     = (agg['cost_per_fill'] - agg['class_mean']) / agg['class_std'
 # outlier rule: high cost & non-formulary
 agg['watchlist_flag'] = (agg['z_cost'] >= 2.0) & (agg['formulary_flag'] == 0)
 watchlist = agg.loc[agg['watchlist_flag'], ['month','ndc','therapeutic_class','cost_per_fill','fills','paid']].sort_values(['month','cost_per_fill'], ascending=[True, False])
+```
 
 ---
 
