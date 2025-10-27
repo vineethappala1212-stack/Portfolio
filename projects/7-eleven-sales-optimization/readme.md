@@ -232,11 +232,11 @@ I published Prophet forecasts to a Snowflake Forecast table and blended them wit
 
 ### 🧠 Challenges & How I Solved Them
 
-✅Noisy weekly seasonality & promo spikes: Smoothed with rolling windows; tuned Prophet seasonalities.
+- Noisy weekly seasonality & promo spikes: Smoothed with rolling windows; tuned Prophet seasonalities.
 
-✅Mixed data quality across stores: Standardized item codes; enforced DQ checks in SSIS; imputed gaps.
+- Mixed data quality across stores: Standardized item codes; enforced DQ checks in SSIS; imputed gaps.
 
-✅Adoption with field teams: Added red/amber/green thresholds and store filters; ran enablement sessions.
+- Adoption with field teams: Added red/amber/green thresholds and store filters; ran enablement sessions.
 
 ---
 
