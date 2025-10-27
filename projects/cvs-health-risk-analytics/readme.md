@@ -216,6 +216,7 @@ watchlist = agg.loc[agg['watchlist_flag'], ['month','ndc','therapeutic_class','c
   ---
 
   ### 🧠 Challenges & How I Solved Them
+  
 | Challenge                               | Solution                                                                      |
 | --------------------------------------- | ----------------------------------------------------------------------------- |
 | Inconsistent diagnosis/procedure coding | Validated ICD-10/CPT references; reason mapping to standardized buckets       |
@@ -251,3 +252,5 @@ watchlist = agg.loc[agg['watchlist_flag'], ['month','ndc','therapeutic_class','c
 ---
 
 ✅ This project reflects real enterprise healthcare analytics work (claims & PBM), demonstrating domain logic, FHIR-aware modeling, secure ELT with dbt/Snowflake, and decision-driving dashboards.
+
+---
