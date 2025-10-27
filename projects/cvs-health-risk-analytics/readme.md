@@ -13,7 +13,7 @@ Delivered this as part of an enterprise analytics program for CVS Health via the
 ---
 
 ### 🎯 Overview
-I led analytics for claims quality, denial reduction, and pharmacy cost visibility across medical and Rx claims. The objective was to (1) reduce preventable denials and rework, (2) improve first-pass adjudication rate, and (3) provide transparent audit trails for compliance. I designed claim KPIs, standardized coding logic (ICD-10, CPT/HCPCS), built a dbt/Snowflake analytics layer, and delivered interactive Tableau dashboards used by operations and finance.
+I led analytics delivery for claims quality, denial reduction, and pharmacy cost visibility across medical and Rx claims. The objective was to (1) reduce preventable denials and rework, (2) improve first-pass adjudication rate, and (3) provide transparent audit trails for compliance. I designed claim KPIs, standardized coding logic (ICD-10, CPT/HCPCS), built a dbt/Snowflake analytics layer, and delivered interactive Tableau dashboards used by operations and finance.
 
 ---
 
@@ -216,7 +216,7 @@ watchlist = agg.loc[agg['watchlist_flag'], ['month','ndc','therapeutic_class','c
   ---
 
   ### 🧠 Challenges & How I Solved Them
-  | Challenge                               | Solution                                                                      |
+| Challenge                               | Solution                                                                      |
 | --------------------------------------- | ----------------------------------------------------------------------------- |
 | Inconsistent diagnosis/procedure coding | Validated ICD-10/CPT references; reason mapping to standardized buckets       |
 | PHI handling & access control           | PHI masking in curated views; row-level security; audited service roles       |
