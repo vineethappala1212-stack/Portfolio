@@ -215,7 +215,7 @@ watchlist = agg.loc[agg['watchlist_flag'], ['month','ndc','therapeutic_class','c
 
   ---
 
-  ### 🧠 Challenges & How I Solved Them
+### 🧠 Challenges & How I Solved Them
   
 | Challenge                               | Solution                                                                      |
 | --------------------------------------- | ----------------------------------------------------------------------------- |
