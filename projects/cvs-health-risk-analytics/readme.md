@@ -160,6 +160,14 @@ ORDER BY m.month_start, m.provider_id, mr.denial_bucket;
 
 **How I used this:** Powered Tableau tiles (Denial Rate %, First-Pass %, Billed vs Paid) and a reason waterfall with provider drill-downs and month selector.
 
+- Powered Tableau denial performance dashboard to monitor Denial Rate %, First-Pass Rate %, and billed vs paid variance by provider and region
+
+- Identified top preventable denial categories (Missing Info, Medical Necessity, Coverage Issues) and drove targeted reduction initiatives
+
+- Enabled provider-level scorecards to track denial trends and accountability across claim submissions
+
+- Helped recover revenue leakage by quantifying billed vs paid gaps and escalating high-impact denial buckets to operations leadership ✅
+
 ---
 
 ### 🐍 Python (Pandas) — High-Cost NDC Watchlist & Outlier Flag
@@ -195,11 +203,11 @@ watchlist = agg.loc[agg['watchlist_flag'], ['month','ndc','therapeutic_class','c
 
 **How I used this:** Published the watchlist to Snowflake and visualized:
 
-✅ top non-formulary outliers by therapeutic class
+- top non-formulary outliers by therapeutic class
 
-✅ monthly trend of cost per fill
+- monthly trend of cost per fill
 
-✅ drill-down to claims & provider detail for PBM team review
+- drill-down to claims & provider detail for PBM team review
 
 ---
 
