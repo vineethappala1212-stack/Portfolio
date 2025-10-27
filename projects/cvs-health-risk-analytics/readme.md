@@ -158,7 +158,7 @@ ORDER BY m.month_start, m.provider_id, mr.denial_bucket;
 
 ---
 
-How I used this: Powered Tableau tiles (Denial Rate %, First-Pass %, Billed vs Paid) and a reason waterfall with provider drill-downs and month selector.
+**How I used this**: Powered Tableau tiles (Denial Rate %, First-Pass %, Billed vs Paid) and a reason waterfall with provider drill-downs and month selector.
 
 ---
 
@@ -240,13 +240,13 @@ How I used this: Published the watchlist to Snowflake and visualized:
 
 ### ✅ What I’d Improve Next
 
--Pre-adjudication rules simulator to estimate denial reduction before rollout
+- Pre-adjudication rules simulator to estimate denial reduction before rollout
 
--Provider education tracker linked to denial buckets & improvement trend
+- Provider education tracker linked to denial buckets & improvement trend
 
--PBM alternative drug recommender (rules-based, then ML uplift testing)
+- PBM alternative drug recommender (rules-based, then ML uplift testing)
 
--Expand to appeals analytics (win-rate by reason/provider)
+- Expand to appeals analytics (win-rate by reason/provider)
 
 ---
 
