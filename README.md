@@ -3,7 +3,7 @@
  
 📧 Email: vineethappala1212@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/your-link  
-🔗 Tableau Public: https://public.tableau.com/profile/your-link  
+🔗 Tableau Public: [https://public.tableau.com/profile/your-link](https://public.tableau.com/app/profile/vineeth.appala1100/viz/Book1_17617600957950/Dashboard2?publish=yes)  
 🔗 GitHub: https://github.com/your-link  
 
 ---
@@ -42,7 +42,7 @@ I have successfully partnered with **C-level executives, business directors, and
 
 | Project | Domain | Tools | Links |
 |----------|--------|--------|-------|
-| **Pizza Hut – Sales Performance Insights** | Retail | Tableau + SQL | 🔗 Coming Soon |
+| **Pizza Hut – Sales Performance Insights** | Retail | Tableau + SQL | 🔗 View Dashboard[https://public.tableau.com/app/profile/vineeth.appala1100/viz/Book1_17617600957950/Dashboard2?publish=yes] |
 | **7-Eleven – Inventory & Promotion Analytics** | Retail | Power BI + SQL | 🔗 Coming Soon |
 | **CVS Health – Patient Risk & Claims Dashboard** | Healthcare | Power BI + Python | 🔗 Coming Soon |
 | **Apollo Hospitals – Inventory Forecasting** | Healthcare | Power BI + Python (Prophet) | 🔗 Coming Soon |
