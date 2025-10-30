@@ -138,7 +138,7 @@ I used the `RepeatRate90` metric to build a retention analytics view in Tableau 
 ### 🔗 Artifacts & Links
 | Item | Link/Path |
 |------|-----------|
-| Tableau Dashboard |[ Coming soon (public link)](https://public.tableau.com/app/profile/vineeth.appala1100/viz/Book1_17617600957950/Dashboard2?publish=yes) |
+| Tableau Dashboard |[(https://public.tableau.com/app/profile/vineeth.appala1100/viz/Book1_17617600957950/Dashboard2?publish=yes)] |
 | SQL Scripts | `/sql/repeat-rate-analysis.sql` |
 | ETL Workflow | `/etl/sssis-pipeline-notes.md` |
 | Data Model Diagram | `/docs/star-schema.png` |
