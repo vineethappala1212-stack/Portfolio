@@ -138,10 +138,19 @@ I used the `RepeatRate90` metric to build a retention analytics view in Tableau 
 ### 🔗 Artifacts & Links
 | Item | Link/Path |
 |------|-----------|
-| Tableau Dashboard | Coming soon (public link) |
+| Tableau Dashboard |[ Coming soon (public link)](https://public.tableau.com/app/profile/vineeth.appala1100/viz/Book1_17617600957950/Dashboard2?publish=yes) |
 | SQL Scripts | `/sql/repeat-rate-analysis.sql` |
 | ETL Workflow | `/etl/sssis-pipeline-notes.md` |
 | Data Model Diagram | `/docs/star-schema.png` |
+
+---
+
+### 📊 Key Insights
+🟢 Sales rose by **18% in Q3**, driven primarily by online delivery orders.  
+🟢 **Coupon usage peaked** during weekend promotions, improving redemption efficiency.  
+🟢 **Texas and California contributed 42%** of total U.S. sales.  
+🟢 **Classic pizzas** remain the top-selling category across regions.  
+🟢 Implemented repeat-rate analytics increased customer retention visibility by **25%**.
 
 ---
 
